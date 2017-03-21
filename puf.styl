@@ -3,16 +3,17 @@
 
 :root
   --main-color: #f6f6f6
+  --dark-color: #0a0a0a
   --font-size: 20px
   --border-radius-size: 20px
 
 body
+  color: var(--dark-color)
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif
   letter-spacing: .075em
   font-smoothing: antialiased
   background-color: var(--main-color)
   border-radius: var(--border-radius-size)
-
 
 .container
   margin: 0 auto
@@ -26,8 +27,14 @@ body
 
   .column
     flex: 1
-
+    padding: 1%
 
 h1
   font-size: calc(--font-size * 1.2)
-  font-weight: bold
+  font-weight: 600
+  line-height: 1.5em
+
+p
+  color: #8a8a8a
+  font-size: 14px
+  line-height: 1.75em
