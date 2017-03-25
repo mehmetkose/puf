@@ -11,8 +11,10 @@ body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: var(--font-size);
   line-height: var(--line-height);
-  letter-spacing: 0.075em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   font-smoothing: antialiased;
+  letter-spacing: 0.075em;
   background-color: var(--main-color);
   border-radius: var(--border-radius-size);
 }
