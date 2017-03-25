@@ -14,4 +14,4 @@ Then, in development area:
 @import 'path/to/puf'
 ```
 
-From that point on, you can use these mixins in your Stylus.
+From that point on, you can use the puf in your Stylus.
