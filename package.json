@@ -1,8 +1,8 @@
 {
   "name": "puf",
   "version": "0.0.1",
-  "description": "micro css framework",
-  "main": "null",
+  "description": "Mobile first, pure CSS, flexible, lightweight and performance focused CSS framework.",
+  "main": "puf.styl",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
