@@ -2,6 +2,7 @@
 @import 'reset'
 @import 'mixins'
 @import 'toggle'
+@import 'slider'
 
 :root
   --main-color: #f6f6f6
@@ -12,13 +13,13 @@
   --border-radius-size: 20px
 
 body
-  color: var(--dark-font-color);
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: var(--font-size);
-  line-height: var(--line-height);
-  font-smoothing: antialiased;
-  letter-spacing: .075em;
-  background-color: var(--main-color);
+  color: var(--dark-font-color)
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif
+  font-size: var(--font-size)
+  line-height: var(--line-height)
+  font-smoothing: antialiased
+  letter-spacing: .075em
+  background-color: var(--main-color)
 
   +mobile()
     color: red !important
@@ -33,7 +34,7 @@ body
   margin: 0 auto
   max-width: 112.0rem
   position: relative
-  width: 100%
+  width: 90%
 
 // grids
 .row
