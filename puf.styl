@@ -1,4 +1,5 @@
 
+@import 'reset'
 @import 'mixins'
 
 :root
@@ -10,14 +11,22 @@
   --border-radius-size: 20px
 
 body
-  color: var(--dark-font-color)
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif
-  font-size: var(--font-size)
+  color: var(--dark-font-color);
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: var(--font-size);
   line-height: var(--line-height);
-  font-smoothing: antialiased
-  letter-spacing: .075em
-  background-color: var(--main-color)
-  border-radius: var(--border-radius-size)
+  font-smoothing: antialiased;
+  letter-spacing: .075em;
+  background-color: var(--main-color);
+
+  +mobile()
+    color: red !important
+
+  +tablet()
+    color: green !important
+
+  +desktop()
+    color: blue !important
 
 .container
   margin: 0 auto
