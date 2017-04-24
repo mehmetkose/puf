@@ -1,8 +1,8 @@
 {
   "name": "puf",
   "version": "0.0.1",
-  "description": "micro css framework",
-  "main": "null",
+  "description": "Mobile first, pure CSS, flexible, lightweight and performance focused CSS framework.",
+  "main": "puf.styl",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,6 +20,8 @@
     "autoprefixer-stylus": "^0.13.0",
     "browser-sync": "^2.18.8",
     "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-concat-css": "^2.3.0",
     "gulp-stylus": "^2.6.0"
   }
 }
