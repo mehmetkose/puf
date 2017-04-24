@@ -147,27 +147,27 @@ input,
 select {
   vertical-align: middle;
 }
-input {
-  font-size: var(--font-size);
+input,
+button {
+  font-size: 18px;
   outline: 0;
   background: var(--dark-color);
   width: 100%;
   border: 0;
-  margin: 0 0 1em;
-  padding: 0.6em;
+  margin: 0 0 0.6em;
+  padding: 1em;
   box-sizing: border-box;
   border-radius: 3px;
+  color: #808080;
+}
+input:focus,
+button:focus {
+  color: #808080;
 }
 button {
   outline: 0;
   background: #adccce;
-  width: 100%;
-  border: 0;
-  padding: 15px;
   color: #fff;
-  font-size: 14px;
-  -webkit-transition: all 0.3 ease;
-  -webkit-transition: all 0.3 ease;
   transition: all 0.3 ease;
   cursor: pointer;
 }
@@ -199,7 +199,6 @@ button {
   background: #fff;
   border-radius: 50%;
   box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-  -webkit-transition: background 0.4s, left 0.4s, height 0.2s, width 0.2s;
   transition: background 0.4s, left 0.4s, height 0.2s, width 0.2s;
 }
 .toggle input:checked + label {
@@ -211,13 +210,14 @@ button {
 }
 .slider {
   width: 52px;
-  height: 330px;
   background: #f7f7f7;
   border-radius: 3px;
   text-align: center;
   box-shadow: 0 0 3px 1px rgba(0,0,0,0.2);
   position: relative;
   color: #866a62;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 .slider::before {
   width: 100%;
@@ -227,18 +227,6 @@ button {
   left: 0;
   margin-top: 50px;
   box-shadow: 0 1px 0 0 #fff, 0 230px 0 0 #dedede, 0 229px 0 0 #fff;
-}
-.slider .fa-plus {
-  display: block;
-  padding-top: 16px;
-  height: 50px;
-  cursor: pointer;
-}
-.slider .fa-minus {
-  display: block;
-  height: 50px;
-  padding-top: 12px;
-  cursor: pointer;
 }
 .slider .drag-line {
   width: 8px;
